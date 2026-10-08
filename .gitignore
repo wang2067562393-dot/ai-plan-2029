@@ -5,3 +5,4 @@ checkpoints/
 outputs/*.pt
 data/raw/
 .ipynb_checkpoints/
+outputs/bench_gpu.json
