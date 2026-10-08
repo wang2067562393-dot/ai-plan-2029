@@ -1,0 +1,29 @@
+{
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "budget": {
+    "total_gb": 8.0,
+    "free_gb": 6.71,
+    "used_by_screen_and_others_gb": 1.29
+  },
+  "results": [
+    {
+      "dtype": "torch.float32",
+      "n": 4096,
+      "ms": 9.9,
+      "tflops": 13.88
+    },
+    {
+      "dtype": "torch.float16",
+      "n": 4096,
+      "ms": 4.31,
+      "tflops": 31.92
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "n": 4096,
+      "ms": 4.36,
+      "tflops": 31.52
+    }
+  ]
+}
